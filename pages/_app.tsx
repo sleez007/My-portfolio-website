@@ -1,6 +1,10 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import type { AppProps } from 'next/app';
+import { ThemeHookProvider } from '../src/theme/Theme';
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <ThemeHookProvider >
+      <Component {...pageProps} />
+    </ThemeHookProvider>
+  )
 }
