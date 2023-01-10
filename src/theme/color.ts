@@ -10,7 +10,10 @@ const  appTheme: Theme   = {
         txtPrimary300: '#7462DE',
         txtPrimary200: '#767193',
         txtPrimary100: '#FFFFFF',
+        sideBg: '#1F1F1F',
         primary100: '',
+
+
     },
     dark:{
         primaryBg: '#1F1F1F',
@@ -19,6 +22,7 @@ const  appTheme: Theme   = {
         txtPrimary300: '#7462DE',
         txtPrimary200: '#F6F6F8',
         txtPrimary100: '#FFFFFF',
+        sideBg: '#131313',
         primary100: '',
     }
 };
@@ -31,6 +35,7 @@ export interface AppTheme{
     txtPrimary200: string;
     txtPrimary100: string
     primary100: string;
+    sideBg: string;
 }
 
 export default appTheme;

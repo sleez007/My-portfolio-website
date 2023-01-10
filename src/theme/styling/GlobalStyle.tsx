@@ -36,7 +36,7 @@ const GlobalStyle = createGlobalStyle`
             --fs-body: var(--fs-500);
             --fs-primary-heading: var(--fs-800);
             --fs-secondary-heading: 2.4rem;
-            --fs-nav: var(--fs-500);
+            --fs-nav: var(--fs-550);
         }
     }
     body{
@@ -76,6 +76,22 @@ const GlobalStyle = createGlobalStyle`
     }
     .fw-regular{
         font-weight: var(--fw-regular);
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .grid{
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        gap: 2em;
+    }
+    .space-btw{
+        justify-content: space-between;
     }
 `;
 export default GlobalStyle;
