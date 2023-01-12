@@ -13,7 +13,7 @@ export const Logo = () => {
                 <g id="hex">
                 <path id="Path_83" data-name="Path 83" d="M40.933,0,81.866,23.633V70.9L40.933,94.53,0,70.9V23.633Z" fill="none" stroke="#7064d7" strokeWidth="6"/>
                 </g>
-                <text id="KE" transform="translate(25.205 61.53)" fill="#7462de" style={{fontSize: '40px', textAlign: 'center', letterSpacing:4.0, fontWeight: 500}}><tspan x="0" y="0">KE</tspan></text>
+                <text id="KE" transform="translate(16.205 61.53)" fill="#7462de" style={{fontSize: '40px', textAlign: 'center', letterSpacing:4.0, fontWeight: 500}}><tspan x="0" y="0">KE</tspan></text>
             </g>
         </LogoWrapper>
     )

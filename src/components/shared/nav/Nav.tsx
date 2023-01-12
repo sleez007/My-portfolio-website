@@ -39,15 +39,14 @@ const Header = styled.header`
         left: 0;
         height: 100vh;
         background-color: rgba(0, 0, 0,.3);
+        -webkit-filter: blur(8px);
         filter: blur(8px);
-        -webkit-filter: blur(8px)
     }
 
     .primary-navigation{
         &[data-visible]{
             left: 0;
         }
-    
         @media(max-width: 50em) {
             position: fixed;
             top: 0;
@@ -59,7 +58,6 @@ const Header = styled.header`
             box-shadow: -10px 0px 30px -15px ${({theme}: Props) => theme.sideBg};
             padding: 8rem 2rem;
         }
-       
     }
 `;
 

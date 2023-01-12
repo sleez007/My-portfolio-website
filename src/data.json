@@ -1,0 +1,80 @@
+{
+    "experience": [
+        {
+            "company": "Bonitas ICT",
+            "title": "Fullstack Web and Mobile developer",
+            "at": "@Bonitas ICT",
+            "link":"https://bonitasict.com",
+            "duration": "Feb 2021 - Present",
+            "roles": [
+                "Accomplished one of the company’s key projects for 2021 by developing a hybrid mobile app for the Anambra State Housing groundbreaking event, using Flutter. This secured approval and advancement onto the next phase of contract between the company and the State Government.",
+                "Perform regular checks on existing code base to implement necessary upgrades, resolve issues, and optimize overall system performance.",
+                "Worked closely with the web development team and participated in building client-facing web solutions including different company entity websites using Next JS, Angular, Node JS, Sass, MySQL, and Postgres.",
+                "Mentor interns designated to learn mobile app development by guiding them through best approaches in logical thinking, writing of clean codes, and standard workplace conducts.",
+                "Perform thorough brainstorming to provide apt methodologies for piloting the development cycle process of the mobile app team.",
+                "Collaborate with the UI/UX designer by interpreting and translating UI/UX prototypes into high integrity finished products."
+            ]
+        },
+        {
+            "company": "Innovate Space",
+            "title": "Software Engineer",
+            "at": "@Innovate Space",
+            "link":"https://innovatespace.co",
+            "duration": "Jan 2022 - March 2022",
+            "roles": [
+                "Code instructor and mentorship program at the software training academy "
+            ]
+        },
+        {
+            "company": "TheOaksoft",
+            "title": "Mobile App Engineer",
+            "at": "@TheOaksoft",
+            "link":"https://theoaksoft.com",
+            "duration": "Dec 2020 - Present",
+            "roles": [
+                "Collaborated with the team via JIRA software and completed all assigned tasks as per ongoing software development sprints. Delivered before deadlines most of the time.",
+                "Maintained active communication with the Client thereby comprehending and satisfactorily implementing their precise ideas and requirements.",
+                "Obtained UI/UX specifications from the UI/UX designer and after proper analysis, coded them into actual and marketable products using Flutter technology",
+                "Received multiple API endpoints from the back-end developer and securely integrated them",
+                "Worked closely with existing team in building and launching a cross-platform fintech solution that features flexible investment and packages. Specifically responsible for building the mobile app using Flutter domain-driven design pattern."
+            ]
+        },
+        {
+            "company": "Cousant Connect",
+            "title": "Mobile App Consultant",
+            "at": "@Cousant Connect",
+            "link":"https://cousant.com/",
+            "duration": "Dec 2020 - Dec 2021",
+            "roles": [
+                "Work based on assigned role per time as a mobile app developer for Clients of Cousant Connect under a strict non-disclosure policy.",
+                "Collaborate with the existing team as allowed by each Client in developing industry-leading mobile app solutions according to the Client’s specifics.",
+                "Demonstrated expertise in using Flutter, bloc state management, and MVI architecture to build high-quality and scalable software solutions.",
+                "Completed two Client contracts so far with over 95% client satisfaction and recommendation."
+            ]
+        },
+        {
+            "company": "Hishighnex",
+            "title": "Fullstack Web and Mobile developer",
+            "at": "@Hishighnex",
+            "link":"https://oilperfumes.com/",
+            "duration": "Jan 2019 - Jan 2021",
+            "roles": [
+                "Independently developed, launched, and optimized the company’s web app using HTML, CSS, Node JS, Angular, Sass, MySQL, & PHP",
+                "Independently developed, launched, and optimized the company’s Native Android mobile app using Kotlin, and iOS mobile app using React Native",
+                "Integrated third-party services like Paystack, Mail Gun, and live chat."
+            ]
+        },
+        {
+            "company": "Devamplify Hub",
+            "title": "Fullstack Web and Mobile developer",
+            "at": "@DevAmplify",
+            "link":"https://devamplify.com/",
+            "duration": "Jan 2018 - Dec 2018",
+            "roles": [
+                "Worked with team to build a solution that caters to a broad range of services for churches. Completed tasks by developing the hybrid mobile app using Ionic 3 and Vanilla PHP for the backend.",
+                "Worked with team to develop a multi-level marketing web solution. Specifically built the frontend using Angular and the back end using raw PHP.",
+                "Mentored interns through building small software products from ideation stage to completion. Assigned interns marked significant growth after mentorship."
+            ]
+        }
+    ]
+}

@@ -11,6 +11,9 @@ const  appTheme: Theme   = {
         txtPrimary200: '#767193',
         txtPrimary100: '#FFFFFF',
         sideBg: '#1F1F1F',
+        expCard: '#F6F6F8',
+        expCardHover: '#7563E0',
+        projectColor: '#F6F6F8',
         primary100: '',
 
 
@@ -23,7 +26,11 @@ const  appTheme: Theme   = {
         txtPrimary200: '#F6F6F8',
         txtPrimary100: '#FFFFFF',
         sideBg: '#131313',
+        expCard: '#242424',
+        expCardHover:'#7563E0',
+        projectColor: '#131313',
         primary100: '',
+        
     }
 };
 
@@ -35,7 +42,10 @@ export interface AppTheme{
     txtPrimary200: string;
     txtPrimary100: string
     primary100: string;
+    projectColor: string
     sideBg: string;
+    expCard: string;
+    expCardHover: string;
 }
 
 export default appTheme;
