@@ -14,6 +14,7 @@ const  appTheme: Theme   = {
         expCard: '#F6F6F8',
         expCardHover: '#7563E0',
         projectColor: '#F6F6F8',
+        circleColor:"#7165d9",
         primary100: '',
 
 
@@ -29,6 +30,7 @@ const  appTheme: Theme   = {
         expCard: '#242424',
         expCardHover:'#7563E0',
         projectColor: '#131313',
+        circleColor:"#1C1C1C",
         primary100: '',
         
     }
@@ -46,6 +48,7 @@ export interface AppTheme{
     sideBg: string;
     expCard: string;
     expCardHover: string;
+    circleColor:string,
 }
 
 export default appTheme;

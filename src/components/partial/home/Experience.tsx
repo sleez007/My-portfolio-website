@@ -121,6 +121,10 @@ const Wrapper = styled.section.attrs({id: 'experience'})`
                     position: relative;
                     left: 1.2em;
                     margin: .8em 0;
+                    font-size: .88rem;
+                    @media(max-width: 60em){
+                        font-size: .8rem;
+                    }
     
                     &::before{
                         content: '▹';

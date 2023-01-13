@@ -4,10 +4,13 @@ import { Container } from "../../Container";
 import Button from "../../shared/Button";
 import kingsley from '../../../../public/assets/images/man.png';
 import FadeIn from "react-fade-in";
+import { Circle, Hex, Ke } from "../../Shape";
 
 const HeroWrapper = styled.section`
     padding-top: 4em;
     min-height: 30em;
+    position: relative;
+    overflow: hidden;
     p{
         margin-block: 1.3em;
     }
@@ -24,7 +27,11 @@ const HeroWrapper = styled.section`
 const Hero = () => {
     return (
         <HeroWrapper>
+            <Ke />
+            <Hex />
+            <Circle />
             <Container>
+            
                 <div className="hero_container grid even-columns">
                     <div className="hero__detail">
                         <FadeIn delay={250}>
