@@ -12,6 +12,7 @@ const Button = styled.button`
     color: ${({theme, inverse}:any)=> inverse ? theme.txtPrimary300:  theme.txtPrimary100 };
     outline:none;
     border: ${(props:MyStyledProps)=> props.inverse ? '2px solid' + props.theme.txtPrimary300 : 'none' };
+    cursor: pointer;
 ` as any;
 
 export default Button;

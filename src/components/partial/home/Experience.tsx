@@ -60,10 +60,10 @@ const Wrapper = styled.section`
                     }
 
                     &.active{
-                        color: ${({theme}: Props) => theme.expCardHover};;
+                        color: ${({theme}: Props) => theme.expCardHover};
                         transition: var(--transition);
                         a{
-                            color: ${({theme}: Props) => theme.expCardHover};;
+                            color: ${({theme}: Props) => theme.expCardHover};
                         }
                         
                         &::before{
