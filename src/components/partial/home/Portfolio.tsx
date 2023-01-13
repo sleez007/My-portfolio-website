@@ -541,7 +541,7 @@ const FunItem = ({name, description, cover, stack, environment}: Project ) => {
                 <div className="fun__env">
                     <ul role='list' className="flex">
                         {
-                            environment.map(s => <li key={s.icon}><a href={s.link} target='_blank' referrerPolicy='no-referrer'><i className={s.icon}></i></a></li>)
+                            environment.map(s => <li key={s.icon}><a href={s.link} target='_blank' rel="noreferrer" referrerPolicy='no-referrer'><i className={s.icon}></i></a></li>)
                         }
                     </ul>
                 </div>
@@ -587,7 +587,7 @@ const ProjectItem = ({name, description, cover, stack, environment}: Project ) =
                     <div className="project__env">
                         <ul className="flex" role='list'>
                             {
-                                environment.map(s => <li key={s.icon}><a href={s.link} target='_blank' referrerPolicy='no-referrer'><i className={s.icon}></i></a></li>)
+                                environment.map(s => <li key={s.icon}><a href={s.link} target='_blank' referrerPolicy='no-referrer' rel="noreferrer"><i className={s.icon}></i></a></li>)
                             }
                         </ul>
                     </div>
