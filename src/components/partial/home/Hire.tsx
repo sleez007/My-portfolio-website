@@ -37,7 +37,7 @@ const Hire= () => {
                     <h1 className="text-center">Get In Touch</h1>
                     <p className="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae tenetur eaque quo autem sapiente vitae nam explicabo cum magni aliquid.</p>
                     <div className="flex">
-                        <Button as="a"  className="text-center ">Shoot me an email</Button>
+                        <Button as="a" href="mailto:etokakingsley@gmail.com" className="text-center ">Shoot me an email</Button>
                     </div>
                 </Container>
             </Wrapper>

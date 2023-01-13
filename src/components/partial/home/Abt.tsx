@@ -7,8 +7,12 @@ import { Props } from "../../../theme/styling/GlobalStyle";
 
 const Wrapper = styled.section.attrs({id: 'about'})`
     padding-block: 6em;
+    position:relative;
+    background-color: ${({theme}: Props) => theme.primaryBg};
+    z-index:1;
     @media(min-width: 50em){
         padding-block: 16em 6em;
+        margin-top: -12em;
     }
 
     .about__details{
@@ -91,7 +95,7 @@ const Wrapper = styled.section.attrs({id: 'about'})`
 
 const About= () => {
     return (
-        <Fade ssrFadeout bottom>
+        // <Fade ssrFadeout bottom>
             <Wrapper>
                 <Container>
                     <div className="about grid even-columns">
@@ -126,7 +130,7 @@ const About= () => {
                     </div>
                 </Container>
             </Wrapper>
-        </Fade>
+        // </Fade>
     );
 }
 

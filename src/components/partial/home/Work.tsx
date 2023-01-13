@@ -9,7 +9,6 @@ import cousant from '../../../../public/assets/images/logo/cousent.png';
 import devAmplify from '../../../../public/assets/images/logo/dev_amplify.png';
 import oakSoft from '../../../../public/assets/images/logo/oak_soft.png';
 import hoh from '../../../../public/assets/images/logo/hoh.png';
-import FadeIn from "react-fade-in";
 
 type d = {icon: string, title: string}
 const skills : d[] = [
@@ -29,10 +28,8 @@ const skills : d[] = [
 
 const Wrapper = styled.section`
     padding-block: 6em;
-    @media(min-width: 50em){
-        height: 36em;
-    }
     background-color: ${({theme}: Props) => theme.secondaryBg};
+    position: relative;
 
     .intro{
         justify-content: space-between;
@@ -75,6 +72,11 @@ const Wrapper = styled.section`
         margin-top: 2em;
     }
 
+    .expo__skill-set{
+        position: relative;
+        z-index: 2;
+    }
+
     .expo{
         margin-top: 6em;
         display: none;
@@ -101,7 +103,8 @@ const Wrapper = styled.section`
             display: grid;
             align-items: center;
             padding: 1em;
-            z-index: 100;
+            // position: relative;
+            z-index: 10 !important;
             transition: .4s;
             background: ${({theme}: Props) => theme.expCard};
 
@@ -143,7 +146,7 @@ const Wrapper = styled.section`
 
 const Work= () => {
     return (
-        <Fade ssrFadeout bottom>
+        // <Fade ssrFadeout bottom>
             <Wrapper>
                 <Container>
                     <p className="flex intro">Companies I&#39;ve Worked With <span className="line"></span></p>
@@ -176,7 +179,7 @@ const Work= () => {
                     </div>
                 </Container>
             </Wrapper>
-        </Fade>
+        // </Fade>
     );
 }
 
@@ -185,7 +188,7 @@ const SkillWrap = ({title, icon}: d) => {
         <div className="box">
             <i className={icon}></i>
             <h3 dangerouslySetInnerHTML={{__html: title}}></h3>
-            <a href="#"><p>Hire Me <i className='bx bx-right-arrow-alt'></i></p></a>
+            <a href="mailto:etokakingsley@gmail.com"><p>Hire Me <i className='bx bx-right-arrow-alt'></i></p></a>
         </div>
     )
 }

@@ -5,7 +5,7 @@ import { Props } from "../../../theme/styling/GlobalStyle";
 import { Container } from "../../Container";
 import data from '../../../data.json';
 
-const Wrapper = styled.section`
+const Wrapper = styled.section.attrs({id: 'experience'})`
     padding-block: 6em;
     background-color: ${({theme}: Props) => theme.secondaryBg};
     position: relative;
