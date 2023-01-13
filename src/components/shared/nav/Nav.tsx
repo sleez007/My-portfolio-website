@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import useDarkMode from "use-dark-mode";
+import Fade from 'react-reveal/Fade';
 import { Props } from "../../../theme/styling/GlobalStyle";
 import { Container } from "../../Container";
 import { Logo } from "../../Logo";
@@ -152,12 +153,12 @@ export const NavBar = () => {
     return (
         <Header ref={primaryHeader}>
             <Container className="flex space-btw">
-                <LogoWrapper><Logo/></LogoWrapper>
+                <LogoWrapper><Fade ssrFadeout top><Logo/></Fade></LogoWrapper>
                 <Hamburger toggleMenu={toggleMenu} toggleRef={toggleRef} navBtn={navBtn} />
                 <nav className="primary-navigation" id="primary-navigation" ref={menuRef}>
                     <NavList className="nav__list" >
                         {
-                            navOptions.map(({name, href}, i) => (<MenuItem name={name} close={closeMenu} href={href} key={name} />))
+                            navOptions.map(({name, href}, i) => (<MenuItem name={name} close={closeMenu} href={href} key={name} i={i} />))
                         }
                         <li className="nav__item toggle">
                             <a  className="nav__link">
@@ -175,12 +176,14 @@ export const NavBar = () => {
     );
 }
 
-const MenuItem = ({href, name, close}: any ) => {
+const MenuItem = ({href, name, close, i}: any ) => {
     return (
-        <li className="nav__item" key={name}>
-            <a onClick={close} href={href}>
-               {name}
-            </a>
-        </li>
+        <Fade ssrFadeout top delay={i * 200}>
+            <li className="nav__item" key={name}>
+                <a onClick={close} href={href}>
+                {name}
+                </a>
+            </li>
+        </Fade>
     );
 }

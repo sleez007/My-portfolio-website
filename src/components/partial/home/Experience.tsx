@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import { Props } from "../../../theme/styling/GlobalStyle";
 import { Container } from "../../Container";
 import data from '../../../data.json';
@@ -144,19 +145,25 @@ const Experience= () => {
 
                 <div className="grid experience">
                     <div className="experience__control">
-                        <ul role='list'>
-                            {
-                                experience.map((e,i) => <li className={`${index == i ? 'active':''} `} key={e.company}><a onClick={()=> setIndex(i)}>{e.company}</a></li>)
-                            }
-                        </ul>
+                        <Fade left cascade>
+                            <ul role='list'>
+                                {
+                                    experience.map((e,i) => <li className={`${index == i ? 'active':''} `} key={e.company}><a onClick={()=> setIndex(i)}>{e.company}</a></li>)
+                                }
+                            </ul>
+                        </Fade>
                     </div>
-                    <div className="experience__detail">
-                        <h3>{experience[index].title} <a href={experience[index].link}>{experience[index].at}</a></h3>
-                        <p>{experience[index].duration}</p>
-                        <ul role='list'>
-                            {experience[index].roles.map((e, i)=>(<li key={e} >{e}</li>))}  
-                        </ul>
-                    </div>
+                    <Fade bottom>
+                        <div className="experience__detail">
+                            <h3>{experience[index].title} <a href={experience[index].link}>{experience[index].at}</a></h3>
+                            <p>{experience[index].duration}</p>
+                            <Fade top cascade delay={400}>
+                                <ul role='list'>
+                                    {experience[index].roles.map((e, i)=>(<Fade bottom key={e} delay={i*300}><li key={e} >{e}</li></Fade>))}  
+                                </ul>
+                            </Fade>
+                        </div>
+                    </Fade>
                 </div>
             </Container>
         </Wrapper>

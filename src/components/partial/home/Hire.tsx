@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Fade from 'react-reveal/Fade';
 import { Props } from "../../../theme/styling/GlobalStyle";
 import { Container } from "../../Container";
 import Button from "../../shared/Button";
@@ -29,16 +30,18 @@ const Wrapper = styled.section`
 
 const Hire= () => {
     return (
-        <Wrapper>
-            <Container>
-                <h2 className="section__title"> <span className="line"></span><span className="deco">04. </span>  What's Next? <span className="line"></span></h2>
-                <h1 className="text-center">Get In Touch</h1>
-                <p className="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae tenetur eaque quo autem sapiente vitae nam explicabo cum magni aliquid.</p>
-                <div className="flex">
-                    <Button as="a"  className="text-center ">Shoot me an email</Button>
-                </div>
-            </Container>
-        </Wrapper>
+        <Fade ssrFadeout left cascade>
+            <Wrapper>
+                <Container>
+                    <h2 className="section__title"> <span className="line"></span><span className="deco">04. </span>  What's Next? <span className="line"></span></h2>
+                    <h1 className="text-center">Get In Touch</h1>
+                    <p className="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae tenetur eaque quo autem sapiente vitae nam explicabo cum magni aliquid.</p>
+                    <div className="flex">
+                        <Button as="a"  className="text-center ">Shoot me an email</Button>
+                    </div>
+                </Container>
+            </Wrapper>
+        </Fade>
     );
 }
 

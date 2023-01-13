@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styled from "styled-components";
 import { Container } from "../../Container";
+import Fade from 'react-reveal/Fade';
 import kingsley from '../../../../public/assets/images/kingsley.png'
 import { Props } from "../../../theme/styling/GlobalStyle";
 
@@ -90,40 +91,42 @@ const Wrapper = styled.section.attrs({id: 'about'})`
 
 const About= () => {
     return (
-        <Wrapper>
-            <Container>
-                <div className="about grid even-columns">
-                    <div className="about__details">
-                        <h2 className="section__title"><span className="deco">01. </span>  About me <span className="line"></span></h2>
-                        <p>Hello! Thank you once again for making out time to visit my personal portfolio. My name is Kingsley Etoka, I'm a very dedicated and astute software engineer with the ambition for mental and moral distinction. I'm out to invest in an enduring software career and to seek self-development, advancement and improvement while enjoying job satisfaction. Well proven in , with the precision and loyalty required to excel.</p>
-                        <p>My core area of Focus is on Angular, React, Flutter, Kotlin, Postgres, Mysql & Nest JS</p>
-                        <p>Below is a list of technologies, languages, frameworks and Libraries that I have a good command of:</p>
-                        <ul className="about__list" role='list'>
-                            <li>Angular</li>
-                            <li>NGRX Library</li>
-                            <li>React</li>
-                            <li>Redux</li>
-                            <li>Native Android(Kotlin)</li>
-                            <li>Coroutines & Flows</li>
-                            <li>Flutter</li>
-                            <li>Bloc</li>
-                            <li>Node JS</li>
-                            <li>Nest JS Framework</li>
-                            <li>SQL</li>
-                            <li>Postgres</li>
-                            <li>Typescript</li>
-                            <li>Javascript</li>
-                            <li>CSS</li>
-                        </ul>
-                    </div>
-                    <div className="about__me">
-                        <div className="image_container">
-                            <Image src={kingsley} alt="Etoka Kingsley" />
+        <Fade ssrFadeout bottom>
+            <Wrapper>
+                <Container>
+                    <div className="about grid even-columns">
+                        <div className="about__details">
+                            <h2 className="section__title"><span className="deco">01. </span>  About me <span className="line"></span></h2>
+                            <p>Hello! Thank you once again for making out time to visit my personal portfolio. My name is Kingsley Etoka, I'm a very dedicated and astute software engineer with the ambition for mental and moral distinction. I'm out to invest in an enduring software career and to seek self-development, advancement and improvement while enjoying job satisfaction. Well proven in , with the precision and loyalty required to excel.</p>
+                            <p>My core area of Focus is on Angular, React, Flutter, Kotlin, Postgres, Mysql & Nest JS</p>
+                            <p>Below is a list of technologies, languages, frameworks and Libraries that I have a good command of:</p>
+                            <ul className="about__list" role='list'>
+                                <li>Angular</li>
+                                <li>NGRX Library</li>
+                                <li>React</li>
+                                <li>Redux</li>
+                                <li>Native Android(Kotlin)</li>
+                                <li>Coroutines & Flows</li>
+                                <li>Flutter</li>
+                                <li>Bloc</li>
+                                <li>Node JS</li>
+                                <li>Nest JS Framework</li>
+                                <li>SQL</li>
+                                <li>Postgres</li>
+                                <li>Typescript</li>
+                                <li>Javascript</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
+                        <div className="about__me">
+                            <div className="image_container">
+                                <Image src={kingsley} alt="Etoka Kingsley" />
+                            </div>
                         </div>
                     </div>
-                </div>
-            </Container>
-        </Wrapper>
+                </Container>
+            </Wrapper>
+        </Fade>
     );
 }
 

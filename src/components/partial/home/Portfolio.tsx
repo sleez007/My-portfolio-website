@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import Fade from 'react-reveal/Fade';
+import Image, { StaticImageData } from "next/image";
 import { Props } from "../../../theme/styling/GlobalStyle";
 import mlm from '../../../../public/assets/images/mlm.png';
 import { Container } from "../../Container";
-import Image, { StaticImageData } from "next/image";
+
 
 type Project = {name: string, description: string , stack: string[], environment: {icon: string, link: string}[], cover: StaticImageData}
 interface Wp {
@@ -515,13 +517,14 @@ const Portfolio= () => {
                         projects.featured.map((e, i) => <ProjectItem key={e.name} {...e} />)
                     }
                 </ul>
-
-                <h2 className="section__title text-center pxb">Other Note Worthy Projects</h2>
-                <div className="grid others">
-                    {
-                        projects.fun.map((e, i) => <FunItem key={i} {...e} />)
-                    }
-                </div>
+                <Fade ssrFadeout bottom>
+                    <h2 className="section__title text-center pxb">Other Note Worthy Projects</h2>
+                    <div className="grid others">
+                        {
+                            projects.fun.map((e, i) => <FunItem key={i} {...e} />)
+                        }
+                    </div>
+                </Fade>
             </Container>
         </Wrapper>
     );
@@ -563,32 +566,34 @@ const FunItem = ({name, description, cover, stack, environment}: Project ) => {
 
 const ProjectItem = ({name, description, cover, stack, environment}: Project ) => {
     return (
-        <li className="grid-12 project">
-            <div className="project__image">
-                <Image src={cover} alt={name} />
-            </div>
-            <div className="project__content">
-                <p className="project-feat">Featured Project</p>
-                <h3>{name}</h3>
-                <div className="project__card">
-                    <p>{description}</p>
+        <Fade ssrFadeout bottom>
+            <li className="grid-12 project">
+                <div className="project__image">
+                    <Image src={cover} alt={name} />
                 </div>
-                <div className="project__stack">
-                    <ul className="flex" role='list'>
-                        {
-                            stack.map(s => <li key={s}>{s}</li>)
-                        }
-                    </ul>
+                <div className="project__content">
+                    <p className="project-feat">Featured Project</p>
+                    <h3>{name}</h3>
+                    <div className="project__card">
+                        <p>{description}</p>
+                    </div>
+                    <div className="project__stack">
+                        <ul className="flex" role='list'>
+                            {
+                                stack.map(s => <li key={s}>{s}</li>)
+                            }
+                        </ul>
+                    </div>
+                    <div className="project__env">
+                        <ul className="flex" role='list'>
+                            {
+                                environment.map(s => <li key={s.icon}><a href={s.link} target='_blank' referrerPolicy='no-referrer'><i className={s.icon}></i></a></li>)
+                            }
+                        </ul>
+                    </div>
                 </div>
-                <div className="project__env">
-                    <ul className="flex" role='list'>
-                        {
-                            environment.map(s => <li key={s.icon}><a href={s.link} target='_blank' referrerPolicy='no-referrer'><i className={s.icon}></i></a></li>)
-                        }
-                    </ul>
-                </div>
-            </div>
-        </li>
+            </li>
+        </Fade>
     );
 }
 

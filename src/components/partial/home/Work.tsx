@@ -1,13 +1,15 @@
 import styled from "styled-components";
 import { Props } from "../../../theme/styling/GlobalStyle";
-import { Container } from "../../Container";
 import Image from "next/image";
+import Fade from 'react-reveal/Fade';
+import { Container } from "../../Container";
 import nova from '../../../../public/assets/images/logo/nova.png';
 import bict from '../../../../public/assets/images/logo/bict.png';
 import cousant from '../../../../public/assets/images/logo/cousent.png';
 import devAmplify from '../../../../public/assets/images/logo/dev_amplify.png';
 import oakSoft from '../../../../public/assets/images/logo/oak_soft.png';
 import hoh from '../../../../public/assets/images/logo/hoh.png';
+import FadeIn from "react-fade-in";
 
 type d = {icon: string, title: string}
 const skills : d[] = [
@@ -141,35 +143,40 @@ const Wrapper = styled.section`
 
 const Work= () => {
     return (
-        <Wrapper>
-            <Container>
-                <p className="flex intro">Companies I've Worked With <span className="line"></span></p>
-                <div className="grid worked__with">
-                    <Image src={bict} alt="Bonitas ICT" />
-                    <Image src={nova} alt="Innovate Space" />
-                    <Image src={oakSoft} alt="The Oaksoft " />
-                    <Image src={cousant} alt="Cousant Connect" />
-                    <Image src={hoh} alt="House of Hishighnex " />
-                    <Image src={devAmplify} alt="Devamplify" />
-                </div>
-
-                <div className="grid expo even-columns">
-                    <div className="expo__years">
-                        <p className="yr flex">6 <span>+</span></p>
-                        <p>Years Experience Working.</p>
+        <Fade ssrFadeout bottom>
+            <Wrapper>
+                <Container>
+                    <p className="flex intro">Companies I've Worked With <span className="line"></span></p>
+                    <div className="grid worked__with">
+                        <Image src={bict} alt="Bonitas ICT" />
+                        <Image src={nova} alt="Innovate Space" />
+                        <Image src={oakSoft} alt="The Oaksoft " />
+                        <Image src={cousant} alt="Cousant Connect" />
+                        <Image src={hoh} alt="House of Hishighnex " />
+                        <Image src={devAmplify} alt="Devamplify" />
                     </div>
-                    <div className="expo__skill-set">
-                        <p>I've worked in full capacity as a fullstack Web and Mobile App developer in every of the afore mentioned organization.</p>
 
-                        <div className="skills even-columns grid">
-                            {
-                                skills.map(s => <SkillWrap {...s} key={s.title} />)
-                            }
+                    <div className="grid expo even-columns">
+                        <Fade ssrFadeout bottom>
+                            <div className="expo__years">
+                                <p className="yr flex">6 <span>+</span></p>
+                                <p>Years Experience Working.</p>
+                            </div>
+                        </Fade>
+                        <div className="expo__skill-set">
+                            <p>I've worked in full capacity as a fullstack Web and Mobile App developer in every of the afore mentioned organization.</p>
+                            <Fade ssrFadeout bottom>
+                                <div className="skills even-columns grid">
+                                    {
+                                        skills.map(s => <SkillWrap {...s} key={s.title} />)
+                                    }
+                                </div>
+                            </Fade>
                         </div>
                     </div>
-                </div>
-            </Container>
-        </Wrapper>
+                </Container>
+            </Wrapper>
+        </Fade>
     );
 }
 
