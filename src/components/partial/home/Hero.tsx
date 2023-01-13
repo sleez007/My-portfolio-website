@@ -31,7 +31,7 @@ const Hero = () => {
                             <p className="text-primary-300">Hi, my name is</p>
                             <h1>KINGSLEY<br/>ETOKA</h1>
                             <p className="me_txt">I&#39;m a Fullstack Web and Mobile App Developer With Over 6 years of experience building Industry Leading Web and Mobile App Solutions with next gen technologies.</p>
-                            <Button inverse={true}>DOWNLOAD CV</Button>
+                            <Button as='a' href="/assets/docs/kingsley_etoka.pdf" download={true} inverse={true}>DOWNLOAD CV</Button>
                         </FadeIn>
                     </div>
                     <div className="hero__image">
