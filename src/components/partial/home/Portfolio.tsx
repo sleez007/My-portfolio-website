@@ -510,7 +510,7 @@ const Portfolio= () => {
     return (
         <Wrapper>
             <Container>
-                <h2 className="section__title"><span className="deco">03. </span>  Some Things I've Built <span className="line"></span></h2>
+                <h2 className="section__title"><span className="deco">03. </span>  Some Things I&#39;ve Built <span className="line"></span></h2>
 
                 <ul role='list'>
                     {

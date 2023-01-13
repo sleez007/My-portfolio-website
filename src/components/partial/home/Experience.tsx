@@ -141,7 +141,7 @@ const Experience= () => {
     return (
         <Wrapper>
             <Container>
-                <h2 className="section__title"><span className="deco">02. </span>  Where I've Worked <span className="line"></span></h2>
+                <h2 className="section__title"><span className="deco">02. </span>  Where I&#39;ve Worked <span className="line"></span></h2>
 
                 <div className="grid experience">
                     <div className="experience__control">

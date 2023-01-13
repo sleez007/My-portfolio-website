@@ -146,7 +146,7 @@ const Work= () => {
         <Fade ssrFadeout bottom>
             <Wrapper>
                 <Container>
-                    <p className="flex intro">Companies I've Worked With <span className="line"></span></p>
+                    <p className="flex intro">Companies I&#39;ve Worked With <span className="line"></span></p>
                     <div className="grid worked__with">
                         <Image src={bict} alt="Bonitas ICT" />
                         <Image src={nova} alt="Innovate Space" />
@@ -164,7 +164,7 @@ const Work= () => {
                             </div>
                         </Fade>
                         <div className="expo__skill-set">
-                            <p>I've worked in full capacity as a fullstack Web and Mobile App developer in every of the afore mentioned organization.</p>
+                            <p>I&#39;ve worked in full capacity as a fullstack Web and Mobile App developer in every of the afore mentioned organization.</p>
                             <Fade ssrFadeout bottom>
                                 <div className="skills even-columns grid">
                                     {

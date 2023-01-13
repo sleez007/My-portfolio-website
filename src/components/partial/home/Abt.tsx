@@ -97,7 +97,7 @@ const About= () => {
                     <div className="about grid even-columns">
                         <div className="about__details">
                             <h2 className="section__title"><span className="deco">01. </span>  About me <span className="line"></span></h2>
-                            <p>Hello! Thank you once again for making out time to visit my personal portfolio. My name is Kingsley Etoka, I'm a very dedicated and astute software engineer with the ambition for mental and moral distinction. I'm out to invest in an enduring software career and to seek self-development, advancement and improvement while enjoying job satisfaction. Well proven in , with the precision and loyalty required to excel.</p>
+                            <p>Hello! Thank you once again for making out time to visit my personal portfolio. My name is Kingsley Etoka, I&#39;m a very dedicated and astute software engineer with the ambition for mental and moral distinction. I&#39;m out to invest in an enduring software career and to seek self-development, advancement and improvement while enjoying job satisfaction. Well proven in , with the precision and loyalty required to excel.</p>
                             <p>My core area of Focus is on Angular, React, Flutter, Kotlin, Postgres, Mysql & Nest JS</p>
                             <p>Below is a list of technologies, languages, frameworks and Libraries that I have a good command of:</p>
                             <ul className="about__list" role='list'>
