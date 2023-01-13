@@ -95,8 +95,8 @@ const Wrapper = styled.section.attrs({id: 'about'})`
 
 const About= () => {
     return (
-        // <Fade ssrFadeout bottom>
-            <Wrapper>
+        <Wrapper>
+            <Fade ssrFadeout bottom>
                 <Container>
                     <div className="about grid even-columns">
                         <div className="about__details">
@@ -129,8 +129,8 @@ const About= () => {
                         </div>
                     </div>
                 </Container>
-            </Wrapper>
-        // </Fade>
+            </Fade>
+        </Wrapper>
     );
 }
 
