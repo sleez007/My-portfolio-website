@@ -341,6 +341,9 @@ const Wrapper = styled.section.attrs({id: 'portfolio'})`
             -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
             transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
             border-radius: 10px;
+            @media(max-width: 60em){
+                border-radius: 0px;
+            }
 
             &:hover{
                 filter: none;
