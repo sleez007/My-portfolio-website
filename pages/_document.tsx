@@ -5,7 +5,7 @@ import Document from 'next/document'
 
 const Doc: NextPage = ()=>{
   return (
-    <Html lang="en">
+    <Html lang="en" style={{scrollBehavior:'smooth'}}>
       <Head>
         <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
         <link rel="preconnect" href="https://fonts.googleapis.com" />

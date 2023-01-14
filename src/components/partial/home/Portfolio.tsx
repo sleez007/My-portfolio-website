@@ -278,7 +278,7 @@ const projects: Wp = {
     ]
 };
 
-const Wrapper = styled.section`
+const Wrapper = styled.section.attrs({id: 'portfolio'})`
     padding-block: 6em;
     position: relative;
 

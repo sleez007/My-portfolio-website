@@ -19,12 +19,12 @@ const navOptions: NavLinkA[] = [
         href: '#about',
     },
     {
-        name: 'Portfolio',
-        href: '#portfolio',
+        name:'Experience',
+        href: '/#experience',
     },
     {
-        name:'Experience',
-        href: '#experience',
+        name: 'Portfolio',
+        href: '#portfolio',
     }
 ];
 
