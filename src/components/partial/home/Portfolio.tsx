@@ -189,7 +189,7 @@ const projects: Wp = {
         {
             name: 'JWT Authentication Server',
             description: 'A sample project to show how to do authentication in Nest JS using JWT Tokens',
-            stack: ['Nest JS', 'Postgres', 'Docker', 'Access Tokens', 'Reefresh Tokens'],
+            stack: ['Nest JS', 'Postgres', 'Docker'],
             cover: hse,
             environment: [
                 {
