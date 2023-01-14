@@ -170,7 +170,7 @@ const projects: Wp = {
         },
         {
             name: 'Portfolio Website :)',
-            description: 'My Portfolio weebsite. This is pretty much the same website you are on at the moment. I guess it\'s part of what I have built afterall :)',
+            description: 'My Portfolio website. This is pretty much the same website you are on at the moment. I guess it\'s part of what I have built afterall :)',
             stack: ['React', 'Next JS', 'Styled Components',],
             cover: pf,
             environment: [
@@ -238,7 +238,7 @@ const projects: Wp = {
                 },
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'https://vercel.com/sleez007/url-shortening-api-landing-page'
+                    link: 'https://url-shortening-api-landing-page-sandy.vercel.app/'
                 }
             ]
         },
