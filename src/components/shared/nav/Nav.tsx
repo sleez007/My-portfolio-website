@@ -54,8 +54,8 @@ const Header = styled.header`
             left: -250px;
             width: 250px;
             height: 100%;
-            transition: .3s;
-            background-color:${({theme}: Props) => theme.sideBg};
+            transition: .3s; 
+            background-color: ${({theme}: Props) => theme.primaryBg};
             box-shadow: -10px 0px 30px -15px ${({theme}: Props) => theme.sideBg};
             padding: 8rem 2rem;
         }
@@ -183,7 +183,15 @@ export const NavBar = () => {
         () => {
             if(isBrowser){
                 window.addEventListener("scroll", handleScroll);
-                return  ()=> window.removeEventListener('scroll', handleScroll);
+                window.addEventListener('click', (e: any) =>{
+                    if(menuRef?.current?.hasAttribute('data-visible')){
+                        if(e.target.id !='primary-navigation' && !e.target.classList.contains('t')) closeMenu();
+                    }
+                });
+                return  ()=> {
+                    window.removeEventListener('click', ()=> true);
+                    window.removeEventListener('scroll', handleScroll);
+                }
             } 
         }
     );
@@ -219,9 +227,9 @@ export const NavBar = () => {
                 <LogoWrapper><Fade ssrFadeout top><Logo/></Fade></LogoWrapper>
                 <Hamburger toggleMenu={toggleMenu} toggleRef={toggleRef} navBtn={navBtn} />
                 <nav className="primary-navigation" id="primary-navigation" ref={menuRef}>
-                    <NavList className="nav__list" >
+                    <NavList className="nav__list" id="lll" >
                         {
-                            navOptions.map(({name, href}, i) => (<MenuItem name={name} close={closeMenu} href={href} key={name} i={i} />))
+                            navOptions.map(({name, href}, i) => (<MenuItem name={name} href={href} key={name} i={i} />))
                         }
                         <li className="nav__item toggle">
                             <a  className="nav__link">
@@ -239,11 +247,11 @@ export const NavBar = () => {
     );
 }
 
-const MenuItem = ({href, name, close, i}: any ) => {
+const MenuItem = ({href, name, i}: any ) => {
     return (
         <Fade ssrFadeout top delay={i * 200}>
             <li className="nav__item" key={name}>
-                <a onClick={close} href={href}>
+                <a href={href}>
                 {name}
                 </a>
             </li>

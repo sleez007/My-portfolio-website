@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { Props } from "../../theme/styling/GlobalStyle";
 
-const HamburgerBtn = styled.button.attrs({ariaControls:'primary-navigation', ariaExpanded:'false'})`
+const HamburgerBtn = styled.button.attrs({ariaControls:'primary-navigation', ariaExpanded:'false', id:"ham"})`
     cursor: pointer;
     background-color: transparent;
     border: 0;
@@ -25,6 +26,9 @@ const HamburgerBtn = styled.button.attrs({ariaControls:'primary-navigation', ari
     rect {
         transition: all .3s ease-in-out;
     }
+    .top,.middle,.bottom{
+        fill: ${({theme}: Props) => theme.txtPrimary400};
+    }
 
     & .show-cancel{
         .middle {
@@ -46,16 +50,16 @@ const HamburgerBtn = styled.button.attrs({ariaControls:'primary-navigation', ari
     }
 `;
 
-const AnimatedBurger = styled.svg.attrs({width:40, height:40, viewBox:'0 0 100 100', fill:'none', xmlns:'http://www.w3.org/2000/svg'})``;
+const AnimatedBurger = styled.svg.attrs({width:40, height:40, viewBox:'0 0 100 100', fill:'none', xmlns:'http://www.w3.org/2000/svg', id:'po'})``;
 
 export const Hamburger =  ({toggleRef, toggleMenu, navBtn}: any) => {
     return (
-        <HamburgerBtn ref={navBtn} onClick={toggleMenu}>
+        <HamburgerBtn className="t" ref={navBtn} onClick={toggleMenu}>
             <span className="sr-only">Menu</span>
-            <AnimatedBurger ref={toggleRef}>
-                <rect className="top" x="20" y="29" width="60" height="7.85106" fill="#000" />
-                <rect className="middle" x="20" y="45.5745" width="60" height="7.85106" fill="#000" />
-                <rect className="bottom" x="20" y="62.1489" width="60" height="7.85106" fill="#000" />
+            <AnimatedBurger ref={toggleRef} className="t">
+                <rect className="top t" x="20" y="29" width="60" height="7.85106" fill="#000" />
+                <rect className="middle t" x="20" y="45.5745" width="60" height="7.85106" fill="#000" />
+                <rect className="bottom t" x="20" y="62.1489" width="60" height="7.85106" fill="#000" />
             </AnimatedBurger>
         </HamburgerBtn>
     )
