@@ -187,50 +187,46 @@ const projects: Wp = {
     ],
     fun: [
         {
-            name: 'HSE Management Web App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack: ['Angular', 'NGRX', 'RXJS', 'SASS', 'Adonis JS', 'Postgres'],
+            name: 'JWT Authentication Server',
+            description: 'A sample project to show how to do authentication in Nest JS using JWT Tokens',
+            stack: ['Nest JS', 'Postgres', 'Docker', 'Access Tokens', 'Reefresh Tokens'],
             cover: hse,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/Innovate-Space/authentication_backend'
                 },
-                {
-                    icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
-                }
             ]
         },
         {
-            name: 'HSE Management Web App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack: ['Angular', 'NGRX', 'RXJS', 'SASS', 'Adonis JS', 'Postgres'],
+            name: 'Url Shortening',
+            description: 'A sample project challenge from frontend mentor that enables users to generate a short version of any URL',
+            stack: ['HTML', 'CSS', 'Javascript'],
             cover: mlm,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/Innovate-Space/URL-shortening-API-landing-page'
                 },
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://vercel.com/sleez007/url-shortening-api-landing-page'
                 }
             ]
         },
         {
-            name: 'HSE Management Web App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack: ['Angular', 'NGRX', 'RXJS', 'SASS', 'Adonis JS', 'Postgres'],
+            name: 'Crypto Promo Page',
+            description: 'A sample project design for the landing page of a crypto promotion',
+            stack: ['Angular', 'SASS'],
             cover: mlm,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/sleez007/promo_page'
                 },
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'promo-page.vercel.app'
                 }
             ]
         },
