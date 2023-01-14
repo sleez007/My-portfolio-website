@@ -41,14 +41,13 @@ const Hero = () => {
                     <div className="hero__detail">
                         <FadeIn delay={250}>
                             <p className="text-primary-300">Hi, my name is</p>
-                            
                             <h1 ref={glitch.ref}>KINGSLEY<br/>ETOKA</h1>
                             <p className="me_txt">I&#39;m a Fullstack Web and Mobile App Developer With Over 6 years of experience building Industry Leading Web and Mobile App Solutions with next gen technologies.</p>
                             <Button  as='a' href="/assets/docs/kingsley_etoka.pdf" download={true} inverse={true}>DOWNLOAD CV</Button>
                         </FadeIn>
                     </div>
                     <div className="hero__image">
-                        <Image src={kingsley} alt="Etoka Kingsley" />
+                        <Image src={kingsley} priority alt="Etoka Kingsley" />
                     </div>
                 </div>
             </Container>

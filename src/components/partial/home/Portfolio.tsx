@@ -26,193 +26,161 @@ const projects: Wp = {
     featured: [
         {
             name: 'HSE Management Web App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
+            description: 'This is the Adminstrative end of the HSE Mobile App where the admin uploads and moderate App engagement and contents.',
             stack: ['Angular', 'NGRX', 'RXJS', 'SASS', 'Adonis JS', 'Postgres'],
             cover: hse,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/sleez007/HSE_ADMIN'
                 },
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://hse-admin-two.vercel.app/'
                 }
             ]
         },
         {
             name: 'Oil Perfumes Web App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
+            description: 'The oil perfumes web app is a classified e-commerce website strictly for Oil perfume vendors. The website also an administrative end for both owner and other vendors to manage their stores.',
             stack: ['Angular', 'RXJS', 'SASS', 'Bootstrap', 'Express', 'PHP', 'aSQL'],
             cover: oil,
             environment: [
                 {
-                    icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
-                },
-                {
                     icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://oilperfumes.ng/'
                 }
             ]
         },
         {
             name: 'Innovate Space Website',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
+            description: 'The official website for Innovate space software development firm. The website features a vintage design with a smooth feel and look',
             stack: ['React', 'Next JS', 'Email JS', 'Nest JS', 'Sass', 'Postgres'],
             cover: nov,
             environment: [
                 {
-                    icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
-                },
-                {
                     icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://innovatespace.co'
                 }
             ]
         },
         {
             name: 'Multi Level Marketing Platform Web App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
+            description: 'A multilevel marketing platform that allows people earn as they refer more people on to the platform. Note that I do not have the backend code anymore so the github repo only contains the app frontend.',
             stack: ['Angular', 'RXJS', 'Bootstrap', 'CSS', 'NODE JS', 'MYSQL'],
             cover: mlm,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/sleez007/multilevel-market'
                 },
-                {
-                    icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
-                }
+                // {
+                //     icon: 'bx bx-link-alt',
+                //     link: 'https://github.com/blah'
+                // }
             ]
         },
         {
             name: 'Rest Countries App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
+            description: 'This is a challenge from frontend mentor. The web app basically fetches a list of countries via an API call and then displays the information to the user with ability to sort, search and also toggle theme.',
             stack: ['Angular', 'RXJS', 'SASS', 'Rest Countries API'],
             cover: rest,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/sleez007/Rest-countries'
                 },
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://rest-countries-sleez007.vercel.app/'
                 }
             ]
         },
         {
             name: 'Oil Perfumes Android App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack: ['Kotlin', 'Jetpack Libraries', 'Room', 'Coroutines', 'Dagger', 'Node JS', 'MYSQL'],
+            description: 'The oil perfumes mobile app is an ecommerce App that allows users easily find and buy perfumes from vendors within their region and also that matches their pocket.',
+            stack: ['Kotlin', 'Jetpack Libraries', 'Room', 'Coroutines', 'Dagger', 'Node JS', 'MYSQL', 'MVVM'],
             cover: oilapp,
             environment: [
                 {
-                    icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
-                },
-                {
                     icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://play.google.com/store/apps/details?id=oilperfumes.com.ng'
                 }
             ]
         },
         {
             name: 'Currency Converter App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
+            description: 'Currncy converter App converts from one currency to another using the fixer API and also by default changes theme based on their user preference settings. It also caches result and is offline friendly',
             stack: ['Kotlin', 'Jetpack Libraries', 'Room', 'Coroutines', 'Dagger', 'Converter Api'],
             cover: curr,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
-                },
-                {
-                    icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/sleez007/currency_converter'
                 }
             ]
         },
         {
             name: 'News App Android',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack: ['Kotlin', 'Jetpack Libraries', 'Room', 'Coroutines & Flow', 'Dagger Hilt', 'News Api'],
+            description: 'The News App fetches paginated up-to-date news from the remote server and caches it locally on the user device their by supporting fully offline usage. The App also uses dual theme',
+            stack: ['Kotlin', 'Jetpack Libraries', 'Room', 'Coroutines & Flow', 'Dagger Hilt', 'News Api', 'MVI'],
             cover: news,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
-                },
-                {
-                    icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/Innovate-Space/world_news'
                 }
             ]
         },
         {
             name: 'Whatsapp Clone Android',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack:['Kotlin', 'Jetpack Libraries', 'Room', 'Coroutines', 'Dagger Hilt', 'Socket IO', 'Express', 'Mongo DB', 'Docker Compose'],
+            description: 'Whatsapp Clone App is a sample implementtation of whatsapp with a couple of features like profile creation, contact syncronization, messaging, offline use. This uses the socket.IO library for real time communication. ',
+            stack:['Kotlin', 'Jetpack Libraries', 'Room', 'Coroutines', 'Dagger Hilt', 'Socket IO', 'Express', 'Mongo DB', 'Docker Compose', 'MVVM'],
             cover: nova,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/sleez007/sleezChatApp'
                 },
-                {
-                    icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
-                }
             ]
         },
         {
             name: 'Ground Breaking App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack: ['Flutter', 'Bloc', 'Build Runner', 'Freeze', 'RX Dart'],
+            description: 'The ground breakinng App is an event app that is primarily built foruse only at the launching event of a popular estate in Awka',
+            stack: ['Flutter', 'Bloc', 'Build Runner', 'Freeze', 'RX Dart', 'MVVM'],
             cover: breakn,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
-                },
-                {
-                    icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/sleez007/gve_ground_breaking'
                 }
             ]
         },
         {
             name: 'Mayuk Construction',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack: ['React', 'Next JS', 'Styled Components',],
+            description: 'An informative website for a client who wants to be avaialable on the online space. No heavy requirements so i\'s pretty much basic.',
+            stack: ['Javascript', 'HTML', 'CSS', 'Email JS'],
             cover: may,
             environment: [
                 {
-                    icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
-                },
-                {
                     icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://www.mayuk.info/'
                 }
             ]
         },
         {
             name: 'Portfolio Website :)',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
+            description: 'My Portfolio weebsite. This is pretty much the same website you are on at the moment. I guess it\'s part of what I have built afterall :)',
             stack: ['React', 'Next JS', 'Styled Components',],
             cover: pf,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/sleez007/My-portfolio-website'
                 },
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://kingsleyetoka.com'
                 }
             ]
         },
