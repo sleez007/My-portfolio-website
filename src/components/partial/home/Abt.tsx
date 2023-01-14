@@ -49,7 +49,7 @@ const Wrapper = styled.section.attrs({id: 'about'})`
         transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
         display: block;
         position: relative;
-        width: 300px;
+        width: 250px;
         border-radius: 4px;
         height: 300px;
 
@@ -75,6 +75,8 @@ const Wrapper = styled.section.attrs({id: 'about'})`
             }
         }
         img{
+            height:inherit;
+            object-fit: contain;
             filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
             filter: gray; /* IE6-9 */
             -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */

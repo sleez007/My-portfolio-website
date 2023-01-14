@@ -2,7 +2,18 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 import Image, { StaticImageData } from "next/image";
 import { Props } from "../../../theme/styling/GlobalStyle";
+import hse from '../../../../public/assets/images/hse.png';
 import mlm from '../../../../public/assets/images/mlm.png';
+import oil from '../../../../public/assets/images/oil.png';
+import nov from '../../../../public/assets/images/nov.png';
+import rest from '../../../../public/assets/images/rest.png';
+import oilapp from '../../../../public/assets/images/oilapp.png';
+import curr from '../../../../public/assets/images/curr@2x.png';
+import news from '../../../../public/assets/images/news.png';
+import nova from '../../../../public/assets/images/nova@2x.png';
+import breakn from '../../../../public/assets/images/break.png';
+import pf from '../../../../public/assets/images/pf.png';
+import may from '../../../../public/assets/images/mayuk@2x.png';
 import { Container } from "../../Container";
 
 
@@ -17,7 +28,7 @@ const projects: Wp = {
             name: 'HSE Management Web App',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
             stack: ['Angular', 'NGRX', 'RXJS', 'SASS', 'Adonis JS', 'Postgres'],
-            cover: mlm,
+            cover: hse,
             environment: [
                 {
                     icon: 'bx bxl-github',
@@ -32,8 +43,8 @@ const projects: Wp = {
         {
             name: 'Oil Perfumes Web App',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack: ['Angular', 'RXJS', 'SASS', 'Bootstrap', 'Express', 'PHP', 'MYSQL'],
-            cover: mlm,
+            stack: ['Angular', 'RXJS', 'SASS', 'Bootstrap', 'Express', 'PHP', 'aSQL'],
+            cover: oil,
             environment: [
                 {
                     icon: 'bx bxl-github',
@@ -49,7 +60,7 @@ const projects: Wp = {
             name: 'Innovate Space Website',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
             stack: ['React', 'Next JS', 'Email JS', 'Nest JS', 'Sass', 'Postgres'],
-            cover: mlm,
+            cover: nov,
             environment: [
                 {
                     icon: 'bx bxl-github',
@@ -81,7 +92,7 @@ const projects: Wp = {
             name: 'Rest Countries App',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
             stack: ['Angular', 'RXJS', 'SASS', 'Rest Countries API'],
-            cover: mlm,
+            cover: rest,
             environment: [
                 {
                     icon: 'bx bxl-github',
@@ -97,7 +108,7 @@ const projects: Wp = {
             name: 'Oil Perfumes Android App',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
             stack: ['Kotlin', 'Jetpack Libraries', 'Room', 'Coroutines', 'Dagger', 'Node JS', 'MYSQL'],
-            cover: mlm,
+            cover: oilapp,
             environment: [
                 {
                     icon: 'bx bxl-github',
@@ -113,7 +124,7 @@ const projects: Wp = {
             name: 'Currency Converter App',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
             stack: ['Kotlin', 'Jetpack Libraries', 'Room', 'Coroutines', 'Dagger', 'Converter Api'],
-            cover: mlm,
+            cover: curr,
             environment: [
                 {
                     icon: 'bx bxl-github',
@@ -129,7 +140,7 @@ const projects: Wp = {
             name: 'News App Android',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
             stack: ['Kotlin', 'Jetpack Libraries', 'Room', 'Coroutines & Flow', 'Dagger Hilt', 'News Api'],
-            cover: mlm,
+            cover: news,
             environment: [
                 {
                     icon: 'bx bxl-github',
@@ -145,7 +156,7 @@ const projects: Wp = {
             name: 'Whatsapp Clone Android',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
             stack:['Kotlin', 'Jetpack Libraries', 'Room', 'Coroutines', 'Dagger Hilt', 'Socket IO', 'Express', 'Mongo DB', 'Docker Compose'],
-            cover: mlm,
+            cover: nova,
             environment: [
                 {
                     icon: 'bx bxl-github',
@@ -161,7 +172,23 @@ const projects: Wp = {
             name: 'Ground Breaking App',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
             stack: ['Flutter', 'Bloc', 'Build Runner', 'Freeze', 'RX Dart'],
-            cover: mlm,
+            cover: breakn,
+            environment: [
+                {
+                    icon: 'bx bxl-github',
+                    link: 'https://github.com/blah'
+                },
+                {
+                    icon: 'bx bx-link-alt',
+                    link: 'https://github.com/blah'
+                }
+            ]
+        },
+        {
+            name: 'Mayuk Construction',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
+            stack: ['React', 'Next JS', 'Styled Components',],
+            cover: may,
             environment: [
                 {
                     icon: 'bx bxl-github',
@@ -177,7 +204,7 @@ const projects: Wp = {
             name: 'Portfolio Website :)',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
             stack: ['React', 'Next JS', 'Styled Components',],
-            cover: mlm,
+            cover: pf,
             environment: [
                 {
                     icon: 'bx bxl-github',
@@ -195,7 +222,7 @@ const projects: Wp = {
             name: 'HSE Management Web App',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
             stack: ['Angular', 'NGRX', 'RXJS', 'SASS', 'Adonis JS', 'Postgres'],
-            cover: mlm,
+            cover: hse,
             environment: [
                 {
                     icon: 'bx bxl-github',
@@ -512,7 +539,6 @@ const Portfolio= () => {
             <h1 className="side">PORTFOLIO</h1>
             <Container>
                 <h2 className="section__title"><span className="deco">03. </span>  Some Things I&#39;ve Built <span className="line"></span></h2>
-
                 <ul role='list'>
                     {
                         projects.featured.map((e, i) => <ProjectItem key={e.name} {...e} />)

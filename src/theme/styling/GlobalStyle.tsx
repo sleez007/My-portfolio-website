@@ -141,6 +141,9 @@ const GlobalStyle = createGlobalStyle`
         position: absolute;
         font-weeight: var(--fw-semi-bold);
         text-transform: uppercase;
+        @media(max-width: 1271px){
+            display:none;
+        }
     }
 `;
 export default GlobalStyle;

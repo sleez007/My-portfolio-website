@@ -6,6 +6,9 @@ const KeWrap = styled.svg.attrs({ xmlns: "http://www.w3.org/2000/svg",  })`
     bottom: 2em;
     left:2em;
     z-index:-1;
+    @media(max-width:1180px){
+        display:none;
+    }
 `;
 export const Ke =  () => {
     return (
@@ -24,6 +27,10 @@ const HexWrap = styled.svg.attrs({ xmlns: "http://www.w3.org/2000/svg",  })`
     left:50em;
     transform: translate(-50%, -50%);
     z-index:-1;
+
+    @media(max-width:1180px){
+        display:none;
+    }
 `;
 
 export const Hex = () => {
