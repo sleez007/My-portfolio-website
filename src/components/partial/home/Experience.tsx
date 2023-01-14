@@ -90,7 +90,7 @@ const Wrapper = styled.section.attrs({id: 'experience'})`
                         display: block;
                         height: 100%;
                         @media (max-width: 1300px) {
-                            font-size: 1.2rem;
+                            font-size:1rem;
                         } 
                         @media(max-width: 666px) {
                             display:inline-block;
