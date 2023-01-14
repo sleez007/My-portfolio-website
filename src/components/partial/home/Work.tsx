@@ -148,6 +148,7 @@ const Work= () => {
     return (
         // <Fade ssrFadeout bottom>
             <Wrapper>
+                <h1 className="side">Work</h1>
                 <Container>
                     <p className="flex intro">Companies I&#39;ve Worked With <span className="line"></span></p>
                     <div className="grid worked__with">

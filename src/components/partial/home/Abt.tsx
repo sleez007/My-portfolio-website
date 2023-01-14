@@ -97,6 +97,7 @@ const About= () => {
     return (
         <Wrapper>
             <Fade ssrFadeout bottom>
+                <h1 className="side">About Me</h1>
                 <Container>
                     <div className="about grid even-columns">
                         <div className="about__details">

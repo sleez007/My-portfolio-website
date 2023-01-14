@@ -129,5 +129,18 @@ const GlobalStyle = createGlobalStyle`
             margin-left: .6em;
         }
     }
+
+
+    .side{
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+        font-size: 3.5rem;
+        top: 2em;
+        left: 1rem;
+        color:rgba(117, 99, 224, 0.056) ;
+        position: absolute;
+        font-weeight: var(--fw-semi-bold);
+        text-transform: uppercase;
+    }
 `;
 export default GlobalStyle;

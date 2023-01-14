@@ -509,6 +509,7 @@ const Wrapper = styled.section`
 const Portfolio= () => {
     return (
         <Wrapper>
+            <h1 className="side">PORTFOLIO</h1>
             <Container>
                 <h2 className="section__title"><span className="deco">03. </span>  Some Things I&#39;ve Built <span className="line"></span></h2>
 

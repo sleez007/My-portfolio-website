@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { Props } from "../../../theme/styling/GlobalStyle";
 import { Container } from "../../Container";
 import Button from "../../shared/Button";
+import { useGlitch } from "react-powerglitch";
 
 const Wrapper = styled.section`
     padding-block: 6em;
@@ -29,15 +30,19 @@ const Wrapper = styled.section`
 `;
 
 const Hire= () => {
+    const imgGlitch= useGlitch({
+        "playMode": "hover",
+    })
     return (
         <Fade ssrFadeout left cascade>
             <Wrapper>
+                <h1 className="side">Hire</h1>
                 <Container>
                     <h2 className="section__title"> <span className="line"></span><span className="deco">04. </span>  What&#39;s Next? <span className="line"></span></h2>
                     <h1 className="text-center">Get In Touch</h1>
-                    <p className="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae tenetur eaque quo autem sapiente vitae nam explicabo cum magni aliquid.</p>
+                    <p className="text-center">I&#39;d be glad to join your team and help your team launch products that can help impact the users. Let&#39;s begin!</p>
                     <div className="flex">
-                        <Button as="a" href="mailto:etokakingsley@gmail.com" className="text-center ">Shoot me an email</Button>
+                        <Button ref={imgGlitch.ref} as="a" href="mailto:etokakingsley@gmail.com" className="text-center ">Shoot me an email</Button>
                     </div>
                 </Container>
             </Wrapper>

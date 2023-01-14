@@ -144,6 +144,7 @@ const Experience= () => {
     const [index, setIndex ] = React.useState(0);
     return (
         <Wrapper>
+            <h1 className="side">Experience</h1>
             <Container>
                 <h2 className="section__title"><span className="deco">02. </span>  Where I&#39;ve Worked <span className="line"></span></h2>
 
