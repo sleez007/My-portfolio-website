@@ -40,7 +40,7 @@ const Hire= () => {
                 <Container>
                     <h2 className="section__title"> <span className="line"></span><span className="deco">04. </span>  What&#39;s Next? <span className="line"></span></h2>
                     <h1 className="text-center">Get In Touch</h1>
-                    <p className="text-center">I&#39;d be glad to join your team and help your team launch products that can help impact the users. Let&#39;s begin!</p>
+                    <p className="text-center">I&#39;d be glad to join your team and help your team launch products that can help impact users across the globe. Let&#39;s begin!</p>
                     <div className="flex">
                         <Button ref={imgGlitch.ref} as="a" href="mailto:etokakingsley@gmail.com" className="text-center ">Shoot me an email</Button>
                     </div>

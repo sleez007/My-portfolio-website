@@ -60,6 +60,34 @@ const Header = styled.header`
             padding: 8rem 2rem;
         }
     }
+
+    &.menu-scroll{
+        transition: none;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        margin-top: -130px;
+        padding-bottom: 2em;
+        background: ${({theme}: Props) => theme.primaryBg};
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1)
+    }
+
+    &.awake {
+
+        transition: .3s margin-top ease-out;
+        margin-top: 0;
+        -webkit-transition: .3s all ease-out;
+        -o-transition: .3s all ease-out;
+        transition: .3s all ease-out;
+    }
+      
+    &.menu-scroll.sleep {
+        -webkit-transition: .3s all ease-out;
+        -o-transition: .3s all ease-out;
+        transition: .3s all ease-out;
+    }
 `;
 
 const NavList = styled.ul.attrs({role: 'list', ariaLabel:'Primary'})`
@@ -125,6 +153,7 @@ export const NavBar = () => {
     const navBtn : any = React.useRef(null);
     const primaryHeader: any = React.useRef(null);
     const darkMode = useDarkMode();
+    const isBrowser = typeof window !== `undefined`;
 
     const toggleMenu = () => {
         if(menuRef?.current?.hasAttribute('data-visible')){
@@ -147,6 +176,40 @@ export const NavBar = () => {
             navBtn?.current?.setAttribute('aria-expanded', false);
             document!.querySelector("body")?.removeAttribute('style')
             primaryHeader?.current?.removeAttribute('data-overlay')
+        }
+    }
+
+    React.useEffect(
+        () => {
+            if(isBrowser){
+                window.addEventListener("scroll", handleScroll);
+                return  ()=> window.removeEventListener('scroll', handleScroll);
+            } 
+        }
+    );
+
+    const handleScroll = () => {
+        if (window.pageYOffset > 150) {
+            
+            if(!primaryHeader?.current?.classList?.contains('menu-scroll')){
+                primaryHeader?.current?.classList?.remove('sleep');
+                primaryHeader?.current?.classList?.add('menu-scroll')
+            }
+
+            if (window.pageYOffset > 350) {
+                if(!primaryHeader?.current?.classList?.contains('awake')){
+                    primaryHeader?.current?.classList?.add('awake');
+                }
+            }else{
+                if(primaryHeader?.current?.classList?.contains('awake')){
+                    primaryHeader?.current?.classList?.add('sleep');
+                    primaryHeader?.current?.classList?.remove('awake');
+                }
+            }
+        }else{
+            if(primaryHeader?.current?.classList?.contains('menu-scroll')){
+                primaryHeader?.current?.classList?.remove('menu-scroll');
+            }
         }
     }
 
