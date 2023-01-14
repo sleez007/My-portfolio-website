@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Props } from "../../theme/styling/GlobalStyle";
 
-const HamburgerBtn = styled.button.attrs({ariaControls:'primary-navigation', ariaExpanded:'false', id:"ham"})`
+const HamburgerBtn = styled.button.attrs({ariaControls:'primary-navigation', ariaExpanded:'false'})`
     cursor: pointer;
     background-color: transparent;
     border: 0;
@@ -50,7 +50,7 @@ const HamburgerBtn = styled.button.attrs({ariaControls:'primary-navigation', ari
     }
 `;
 
-const AnimatedBurger = styled.svg.attrs({width:40, height:40, viewBox:'0 0 100 100', fill:'none', xmlns:'http://www.w3.org/2000/svg', id:'po'})``;
+const AnimatedBurger = styled.svg.attrs({width:40, height:40, viewBox:'0 0 100 100', fill:'none', xmlns:'http://www.w3.org/2000/svg'})``;
 
 export const Hamburger =  ({toggleRef, toggleMenu, navBtn}: any) => {
     return (
