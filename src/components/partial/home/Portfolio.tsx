@@ -199,18 +199,14 @@ const projects: Wp = {
             ]
         },
         {
-            name: 'Url Shortening',
-            description: 'A sample project challenge from frontend mentor that enables users to generate a short version of any URL',
-            stack: ['HTML', 'CSS', 'Javascript'],
+            name: 'Facebook UI Clone',
+            description: 'A sample clone of Facebooks mobile App home',
+            stack: ['Flutter', 'Dart'],
             cover: mlm,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/Innovate-Space/URL-shortening-API-landing-page'
-                },
-                {
-                    icon: 'bx bx-link-alt',
-                    link: 'https://vercel.com/sleez007/url-shortening-api-landing-page'
+                    link: 'https://github.com/sleez007/facebook_ui_clone_flutter'
                 }
             ]
         },
@@ -231,50 +227,51 @@ const projects: Wp = {
             ]
         },
         {
-            name: 'HSE Management Web App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack: ['Angular', 'NGRX', 'RXJS', 'SASS', 'Adonis JS', 'Postgres'],
+            name: 'Url Shortening',
+            description: 'A sample project challenge from frontend mentor that enables users to generate a short version of any URL',
+            stack: ['HTML', 'CSS', 'Javascript'],
             cover: mlm,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/Innovate-Space/URL-shortening-API-landing-page'
                 },
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'https://vercel.com/sleez007/url-shortening-api-landing-page'
+                }
+            ]
+        },
+        
+        {
+            name: 'Redux Only Chat App',
+            description: 'A sample app that help master keey redux concepts like store, action, dispatch, middle-ware, state, reducers etc',
+            stack: ['React', 'Redux'],
+            cover: mlm,
+            environment: [
+                {
+                    icon: 'bx bxl-github',
+                    link: 'https://github.com/sleez007/redux-mastery'
+                },
+                {
+                    icon: 'bx bx-link-alt',
+                    link: ' https://sleez007.github.io/redux-mastery/'
                 }
             ]
         },
         {
-            name: 'HSE Management Web App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack: ['Angular', 'NGRX', 'RXJS', 'SASS', 'Adonis JS', 'Postgres'],
+            name: 'Real Estate Landing Page',
+            description: 'A sample landing page for a real estate promotion on social media and onlinne generally',
+            stack: ['HTML', 'SASS', 'GSAP'],
             cover: mlm,
             environment: [
                 {
                     icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
+                    link: 'https://github.com/sleez007/gve'
                 },
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
-                }
-            ]
-        },
-        {
-            name: 'HSE Management Web App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci placeat quo, odio doloremque dicta est velit! Molestias deleniti totam reprehenderit?',
-            stack: ['Angular', 'NGRX', 'RXJS', 'SASS', 'Adonis JS', 'Postgres'],
-            cover: mlm,
-            environment: [
-                {
-                    icon: 'bx bxl-github',
-                    link: 'https://github.com/blah'
-                },
-                {
-                    icon: 'bx bx-link-alt',
-                    link: 'https://github.com/blah'
+                    link: 'http://gve.vercel.app/'
                 }
             ]
         },
