@@ -261,7 +261,7 @@ const projects: Wp = {
         },
         {
             name: 'Real Estate Landing Page',
-            description: 'A sample landing page for a real estate promotion on social media and onlinne generally',
+            description: 'A sample landing page for a real estate promotion on social media and online generally',
             stack: ['HTML', 'SASS', 'GSAP'],
             cover: mlm,
             environment: [
