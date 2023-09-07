@@ -14,6 +14,7 @@ import nova from '../../../../public/assets/images/nova@2x.png';
 import breakn from '../../../../public/assets/images/break.png';
 import pf from '../../../../public/assets/images/pf.png';
 import may from '../../../../public/assets/images/mayuk@2x.png';
+import kanban from '../../../../public/assets/images/kanban.png';
 import { Container } from "../../Container";
 
 
@@ -28,7 +29,7 @@ const projects: Wp = {
             name: 'Kanban Board',
             description: 'This is a drag and drop project management board to keep track of tasks and their status',
             stack: ['Micro Frontend', 'Nx mono Repo', 'Domain Driven Design', 'Angular', 'NGRX', 'RXJS', 'SASS', '', 'Postgres'],
-            cover: hse,
+            cover: kanban,
             environment: [
                 {
                     icon: 'bx bxl-github',
