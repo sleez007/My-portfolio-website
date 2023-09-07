@@ -28,7 +28,7 @@ const projects: Wp = {
         {
             name: 'Kanban Board',
             description: 'This is a drag and drop project management board to keep track of tasks and their status',
-            stack: ['Micro Frontend', 'Nx mono Repo', 'Angular', 'Domain Driven Design', 'NGRX', 'RXJS', 'SASS',],
+            stack: ['Micro Frontend', 'Nx mono Repo', 'Angular', 'DDD', 'Jest & Rxjs Marble', 'NGRX', 'RXJS', 'SASS',],
             cover: kanban,
             environment: [
                 {
