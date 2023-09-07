@@ -25,6 +25,22 @@ interface Wp {
 const projects: Wp = {
     featured: [
         {
+            name: 'Kanban Board',
+            description: 'This is a drag and drop project management board to keep track of tasks and their status',
+            stack: ['Micro Frontend', 'Nx mono Repo', 'Domain Driven Design', 'Angular', 'NGRX', 'RXJS', 'SASS', '', 'Postgres'],
+            cover: hse,
+            environment: [
+                {
+                    icon: 'bx bxl-github',
+                    link: 'https://github.com/sleez007/kanban-board'
+                },
+                {
+                    icon: 'bx bx-link-alt',
+                    link: 'kanban-board-inky.vercel.app'
+                }
+            ]
+        },
+        {
             name: 'HSE Management Web App',
             description: 'This is the Adminstrative end of the HSE Mobile App where the admin uploads and moderate App engagement and contents.',
             stack: ['Angular', 'NGRX', 'RXJS', 'SASS', 'Adonis JS', 'Postgres'],
