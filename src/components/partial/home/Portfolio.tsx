@@ -37,7 +37,7 @@ const projects: Wp = {
                 },
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'kanban-board-inky.vercel.app'
+                    link: 'https://kanban-board-inky.vercel.app'
                 }
             ]
         },
