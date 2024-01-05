@@ -15,6 +15,7 @@ import breakn from '../../../../public/assets/images/break.png';
 import pf from '../../../../public/assets/images/pf.png';
 import may from '../../../../public/assets/images/mayuk@2x.png';
 import kanban from '../../../../public/assets/images/kanban.png';
+import market from '../../../../public/assets/images/market.png';
 import { Container } from "../../Container";
 
 
@@ -25,6 +26,18 @@ interface Wp {
 }
 const projects: Wp = {
     featured: [
+            {
+            name: 'Build Africa',
+            description: 'A multivendor e-commerce market for buying and selling of building materials',
+            stack: ['Micro Frontend Architecture', 'Nx mono Repo', 'Angular', 'Woo commerce API', 'NGRX', 'RXJS', 'SASS', 'Tailwind'],
+            cover: market,
+            environment: [
+                {
+                    icon: 'bx bx-link-alt',
+                    link: 'https://app.staging.buildafrica.store'
+                }
+            ]
+        },
         {
             name: 'Kanban Board',
             description: 'This is a drag and drop project management board to keep track of tasks and their status',
