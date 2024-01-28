@@ -19,7 +19,7 @@
             "link":"https://buildafrica.store",
             "duration": "Dec 2022 - Jan March 2023",
             "roles": [
-                "Responsible for setting up project frontend microservices design architecture using NX",
+                "Responsible for setting up project frontend micro-frontend design architecture using NX",
                 "Worked closely with business analyst to understand business requirements",
                  "Followed TDD guidlines to ensure that every unit of program is well tested and documented",
                 "Participated in code review sessions"
