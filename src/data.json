@@ -1,11 +1,23 @@
 {
     "experience": [
         {
+            "company": "ExamRoom.AI",
+            "title": "Frontend Engineer",
+            "at": "@ExamRoom.AI",
+            "link":"https://examroom.ai",
+            "duration": "March 2023 - Present",
+            "roles": [
+                "Collaborated with my team mates to build awesome user interface",
+                "Worked closely with business analyst to understand business requirements",
+                "Participated in code review sessions",
+            ]
+        },
+        {
             "company": "Bonitas ICT",
             "title": "Development Team Lead",
             "at": "@Bonitas ICT",
             "link":"https://bonitasict.com",
-            "duration": "Feb 2021 - Present",
+            "duration": "Feb 2021 - March 2023",
             "roles": [
                 "Successfully built the internal HSE Administrative end for the Hse App which the HSE officer uses to keep track of all HSE related activities",
                 "Accomplished one of the company’s key projects for 2021 by developing a hybrid mobile app for the Anambra State Housing groundbreaking event, using Flutter. This secured approval and advancement onto the next phase of contract between the company and the State Government.",
