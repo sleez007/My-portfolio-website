@@ -9,6 +9,7 @@ import cousant from '../../../../public/assets/images/logo/cousent.png';
 import devAmplify from '../../../../public/assets/images/logo/dev_amplify.png';
 import oakSoft from '../../../../public/assets/images/logo/oak_soft.png';
 import hoh from '../../../../public/assets/images/logo/hoh.png';
+import exai from '../../../../public/assets/images/logo/exai.svg';
 
 type d = {icon: string, title: string}
 const skills : d[] = [
@@ -152,6 +153,7 @@ const Work= () => {
                 <Container>
                     <p className="flex intro">Companies I&#39;ve Worked With <span className="line"></span></p>
                     <div className="grid worked__with">
+                        <Image src={exai} alt="Examroom.AI" />
                         <Image src={bict} alt="Bonitas ICT" />
                         <Image src={nova} alt="Innovate Space" />
                         <Image src={oakSoft} alt="The Oaksoft " />
