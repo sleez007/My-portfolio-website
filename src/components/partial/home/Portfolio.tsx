@@ -34,7 +34,7 @@ const projects: Wp = {
             environment: [
                 {
                     icon: 'bx bx-link-alt',
-                    link: 'https://app.staging.buildafrica.store'
+                    link: 'https://buildafrica.store'
                 }
             ]
         },
