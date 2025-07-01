@@ -20,6 +20,7 @@ import nahdi from "../../../../public/assets/images/nahdi.png";
 import studypal from "../../../../public/assets/images/study_pal.png";
 import vendor from "../../../../public/assets/images/shopnest.png";
 import mall from "../../../../public/assets/images/mall.png";
+import tok from "../../../../public/assets/images/tok.png";
 import { Container } from "../../Container";
 
 type Project = {
@@ -35,6 +36,30 @@ interface Wp {
 }
 const projects: Wp = {
   featured: [
+    {
+      name: "Tiktok Library npm package",
+      description:
+        "A backend library that allows developers to easily access TikTok API, login and fetch videos, user profiles, upload images, videos and more. It is built with TypeScript and is available on npm.",
+      stack: [
+        "Typescript",
+        "NX Mono Repo",
+        "PNPM workspace",
+        "Roll up bundler",
+        "Verdaccio",
+        "Jest",
+      ],
+      cover: tok,
+      environment: [
+        {
+          icon: "bx bx-link-alt",
+          link: "https://www.npmjs.com/package/@innovatespace/tiktok",
+        },
+        {
+          icon: "bx bxl-github",
+          link: "https://github.com/sleez007/os-libs-monorepo",
+        },
+      ],
+    },
     {
       name: "Nahdi Pharmaceuticals",
       description:
