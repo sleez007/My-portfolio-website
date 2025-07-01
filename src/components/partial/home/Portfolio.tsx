@@ -170,7 +170,7 @@ const projects: Wp = {
       environment: [
         {
           icon: "bx bx-link-alt",
-          link: "https://vendor.shopnest.africa",
+          link: "https://mall.shopnest.africa",
         },
       ],
     },
