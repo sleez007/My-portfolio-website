@@ -21,6 +21,7 @@ import studypal from "../../../../public/assets/images/study_pal.png";
 import vendor from "../../../../public/assets/images/shopnest.png";
 import mall from "../../../../public/assets/images/mall.png";
 import tok from "../../../../public/assets/images/tok.png";
+import novate from "../../../../public/assets/images/novate.png";
 import { Container } from "../../Container";
 
 type Project = {
@@ -61,6 +62,35 @@ const projects: Wp = {
       ],
     },
     {
+      name: "Innovate Space v2",
+      description:
+        "Innovate Space is a software development firm that specializes in building web and mobile applications. This is the website remaster.",
+      stack: [
+        "Next JS",
+        "Postgres",
+        "Prisma ORM",
+        "Next Auth",
+        "Motion",
+        "GSAP",
+        "Tanstack Query",
+        "Shadcn UI",
+        "Redux",
+        "TypeScript",
+        "Server Actions",
+        "i18n",
+        "Tailwind",
+        "API routes",
+        "Paystack",
+      ],
+      cover: novate,
+      environment: [
+        {
+          icon: "bx bx-link-alt",
+          link: "https://innovate-v3.vercel.app",
+        },
+      ],
+    },
+    {
       name: "Nahdi Pharmaceuticals",
       description:
         "Nahdi is a leading pharmacy chain in Saudi Arabia. This is the official website for the company.",
@@ -93,6 +123,9 @@ const projects: Wp = {
       stack: [
         "Gemini API",
         "Next JS",
+        "Postgres",
+        "Prisma ORM",
+        "Next Auth",
         "Paystack Gateway",
         "Tanstack Query",
         "Redux",
