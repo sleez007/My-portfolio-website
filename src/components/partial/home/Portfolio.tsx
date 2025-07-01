@@ -18,6 +18,8 @@ import kanban from "../../../../public/assets/images/kanban.png";
 import market from "../../../../public/assets/images/market.png";
 import nahdi from "../../../../public/assets/images/nahdi.png";
 import studypal from "../../../../public/assets/images/study_pal.png";
+import vendor from "../../../../public/assets/images/shopnest.png";
+import mall from "../../../../public/assets/images/mall.png";
 import { Container } from "../../Container";
 
 type Project = {
@@ -83,6 +85,7 @@ const projects: Wp = {
         },
       ],
     },
+
     {
       name: "Build Africa",
       description:
@@ -102,6 +105,47 @@ const projects: Wp = {
         {
           icon: "bx bx-link-alt",
           link: "https://buildafrica.store",
+        },
+      ],
+    },
+    {
+      name: "Shopnest Vendor Portal",
+      description:
+        "Shopnest is a multivendor e-commerce platform that allows vendors to create their own stores and sell their products. This is the vendor portal where vendors can manage their stores, products, orders and more.",
+      stack: [
+        "Ionic Framework",
+        "Capacitor",
+        "TypeScript",
+        "Angular",
+        "NGRX",
+        "RXJS",
+        "Web socket",
+      ],
+      cover: vendor,
+      environment: [
+        {
+          icon: "bx bx-link-alt",
+          link: "https://vendor.shopnest.africa",
+        },
+      ],
+    },
+    {
+      name: "Shopnest Mall App",
+      description:
+        "Shopnest mall is a multivendor e-commerce platform where consumers can buy products from various vendors.",
+      stack: [
+        "Ionic Framework",
+        "TypeScript",
+        "Angular",
+        "NGRX",
+        "RXJS",
+        "Web socket",
+      ],
+      cover: mall,
+      environment: [
+        {
+          icon: "bx bx-link-alt",
+          link: "https://vendor.shopnest.africa",
         },
       ],
     },
