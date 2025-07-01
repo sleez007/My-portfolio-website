@@ -39,7 +39,7 @@ const projects: Wp = {
     {
       name: "Tiktok Library npm package",
       description:
-        "A backend library that allows developers to easily access TikTok API, login and fetch videos, user profiles, upload images, videos and more. It is built with TypeScript and is available on npm.",
+        "A backend library that allows developers to easily access TikTok API, login, fetch videos, user profiles, upload images, videos and more. It is built with TypeScript and is available on npm.",
       stack: [
         "Typescript",
         "NX Mono Repo",
