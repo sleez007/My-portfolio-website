@@ -22,6 +22,7 @@ import vendor from "../../../../public/assets/images/shopnest.png";
 import mall from "../../../../public/assets/images/mall.png";
 import tok from "../../../../public/assets/images/tok.png";
 import novate from "../../../../public/assets/images/novate.png";
+import noavicon from "../../../../public/assets/images/nova.png";
 import { Container } from "../../Container";
 
 type Project = {
@@ -37,6 +38,30 @@ interface Wp {
 }
 const projects: Wp = {
   featured: [
+    {
+      name: "Icon Generator CLI npm package",
+      description:
+        "A CLI tool that allows developers to generate icons from local images or from AI prompts using DALL-E API. It is built with TypeScript and is available on npm.",
+      stack: [
+        "Typescript",
+        "Nest JS",
+        "Bun",
+        "DALL-E API",
+        "Sharp",
+        "Commander",
+      ],
+      cover: tok,
+      environment: [
+        {
+          icon: "bx bx-link-alt",
+          link: "https://www.npmjs.com/package/@innovatespace/nova-icon",
+        },
+        {
+          icon: "bx bxl-github",
+          link: "https://github.com/sleez007/App-Icon-generator",
+        },
+      ],
+    },
     {
       name: "Tiktok Library npm package",
       description:
