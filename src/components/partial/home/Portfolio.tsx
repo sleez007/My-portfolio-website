@@ -50,7 +50,7 @@ const projects: Wp = {
         "Sharp",
         "Commander",
       ],
-      cover: tok,
+      cover: noavicon,
       environment: [
         {
           icon: "bx bx-link-alt",
