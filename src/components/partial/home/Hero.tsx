@@ -44,9 +44,11 @@ const Hero = () => {
                 ETOKA
               </h1>
               <p className="me_txt">
-                I&#39;m a Fullstack Web and Mobile App Developer With Over 8
-                years of experience building Industry Leading Web and Mobile App
-                Solutions with next gen technologies.
+                Experienced Software Engineer with over 8 years of success in
+                building scalable web and mobile applications across e-commerce,
+                edtech, and healthcare sectors. Known for a strong focus on
+                clean code, problem-solving, and crafting user-centric
+                solutions.
               </p>
               <Button
                 as="a"

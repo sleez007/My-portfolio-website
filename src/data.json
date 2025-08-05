@@ -1,108 +1,135 @@
 {
-    "experience": [
-        {
-            "company": "ExamRoom.AI",
-            "title": "Frontend Engineer",
-            "at": "@ExamRoom.AI",
-            "link":"https://examroom.ai",
-            "duration": "March 2023 - Present",
-            "roles": [
-                "Collaborated with my team mates to build awesome user interface",
-                "Worked closely with business analyst to understand business requirements",
-                "Participated in code review sessions"
-            ]
-        },
-          {
-            "company": "Build Africa",
-            "title": "Frontend Engineer (Contract)",
-            "at": "@Build Africa",
-            "link":"https://buildafrica.store",
-            "duration": "Dec 2022 - Jan March 2023",
-            "roles": [
-                "Responsible for setting up project frontend micro-frontend design architecture using NX",
-                "Worked closely with business analyst to understand business requirements",
-                 "Followed TDD guidlines to ensure that every unit of program is well tested and documented",
-                "Participated in code review sessions"
-            ]
-        },
-        {
-            "company": "Bonitas ICT",
-            "title": "Development Team Lead",
-            "at": "@Bonitas ICT",
-            "link":"https://bonitasict.com",
-            "duration": "Feb 2021 - March 2023",
-            "roles": [
-                "Successfully built the internal HSE Administrative end for the Hse App which the HSE officer uses to keep track of all HSE related activities",
-                "Accomplished one of the company’s key projects for 2021 by developing a hybrid mobile app for the Anambra State Housing groundbreaking event, using Flutter. This secured approval and advancement onto the next phase of contract between the company and the State Government.",
-                "Successfully buit the website for the various company entities. Please Note that Bonitas is a conglomerate of multiple chains of business in different sectors.",
-                "Successfully built the green valley estate Mobile App so far to the point where it is. Project is still ongoing...",
-                "Brainstorm with product team and the UI Team to ensure the processes mirrored off are not missing vital steps",
-                "Mentor interns designated to learn mobile app development by guiding them through best approaches in logical thinking, writing of clean codes, and standard workplace conducts and ethics",
-                "Worked with team mates to ensure project delivery and sprint completion",
-                "Held down sprint meetings as scrum master"
-            ]
-        },
-        {
-            "company": "Innovate Space",
-            "title": "Software Engineer(Contract)",
-            "at": "@Innovate Space",
-            "link":"https://innovatespace.co",
-            "duration": "Jan 2022 - March 2022",
-            "roles": [
-                "Part time Code instructor and mentorship program at the software training academy",
-                "Succeessfully built the company website",
-                "Successfully built the Mayuk website for thr companies client"
-            ]
-        },
-        {
-            "company": "TheOaksoft",
-            "title": "Mobile App Engineer (Contract)",
-            "at": "@TheOaksoft",
-            "link":"https://theoaksoft.com",
-            "duration": "Dec 2020 - Dec 2021",
-            "roles": [
-                "Successfully Worked closely with the team in building and launching a cross-platform fintech solution that features flexible investment and packages. Specifically responsible for building the mobile app using Flutter domain-driven design pattern.",
-                "Successfully Integrated all the key payment system used on the platform like Paystack and flutterwave.",
-                "Collaborated with the team via JIRA software and completed all assigned tasks as per ongoing software development sprints. Delivered before deadlines most of the time.",
-                "Maintained active communication with the Client thereby comprehending and satisfactorily implementing their precise ideas and requirements."
-            ]
-        },
-        {
-            "company": "Cousant Connect",
-            "title": "Mobile App Consultant (Contract)",
-            "at": "@Cousant Connect",
-            "link":"https://cousant.com/",
-            "duration": "Dec 2020 - Dec 2021",
-            "roles": [
-                "Work based on assigned role per time as a mobile app developer for Clients of Cousant Connect under a strict non-disclosure policy.",
-                "Collaborate with the existing team as allowed by each Client in developing industry-leading mobile app solutions according to the Client’s specifics.",
-                "Completed two Client contracts so far with over 95% client satisfaction and recommendation."
-            ]
-        },
-        {
-            "company": "Hishighnex",
-            "title": "Fullstack Web and Mobile developer",
-            "at": "@Hishighnex",
-            "link":"https://oilperfumes.com/",
-            "duration": "Jan 2019 - Jan 2021",
-            "roles": [
-                "Successfully built an ee-commercee platform for the brand using Angular",
-                "Succeessfully built and deployed the company Native Android App using Kotlin",
-                "Successfully built the company's IOS App using React Native",
-                "Successfully built the compsniees internal inventory management solution"
-            ]
-        },
-        {
-            "company": "Devamplify Hub",
-            "title": "Fullstack Web and Mobile developer",
-            "at": "@DevAmplify",
-            "link":"https://devamplify.com/",
-            "duration": "Jan 2018 - Dec 2018",
-            "roles": [
-                "Successfully built the companies startup Idea. The oneword App using Ionic",
-                "Successfully built and deployed a multilevel marketing platform for the comapny's client using Angular",
-                "Successfully trained students at the academy on both web and Mobile App development"
-            ]
-        }
-    ]
+  "experience": [
+    {
+      "company": "Feature/Mind",
+      "title": "Senior Frontend Engineer (Remote)",
+      "at": "@Featuremind",
+      "link": "https://featuremind.com",
+      "duration": "April 2024 - Present",
+      "roles": [
+        "Integrated multiple checkout payment options, including Nuhdeek Points, Payfort, Apple Pay, and coupons, enhancing user flexibility and contributing to improved conversion rates.",
+        "Implemented comprehensive SEO strategies across CLP, PLP, PDP, and static pages, resulting in enhanced search visibility and higher organic traffic.",
+        "Developed and refined the ERX (Electronic Prescription) ordering flow, improving order accuracy and streamlining the pharmacy fulfillment process",
+        "Built and optimized the pharmacy locator with Google Maps integration, improving store discovery while reducing location service costs.",
+        "Optimized Algolia search queries by reducing unnecessary calls and fine-tuning configuration, leading to faster search performance and reduced API overhead.",
+        "Successfully led the frontend migration of the eCommerce site from Magento to Next.js, resulting in a faster, more modern platform and earning recognition as best contributor to the project."
+      ]
+    },
+    {
+      "company": "ExamRoom.AI",
+      "title": "Senior Frontend Engineer (Remote)",
+      "at": "@ExamRoom.AI",
+      "link": "https://examroom.ai",
+      "duration": "March 2023 - April 2024",
+      "roles": [
+        "Designed and launched the onboarding flow for new site managers, reducing manual support requests by 40% and accelerating client activation time by 30% through automation of data capture.",
+        "Developed a receptionist console to verify data submitted during onboarding, ensuring data accuracy and compliance before site activation.",
+        "Executed AI-powered check-in modules using TensorFlow for face, ID card, and fingerprint verification, enhancing exam security and automating student verification.",
+        "Delivered the exam slot booking system to support flexible scheduling for multiple exam types, increasing throughput and reducing booking errors.",
+        "Developed user management tools for admins and site managers to easily control user accounts, improving visibility and auditability.",
+        "Introduced role-based access control (RBAC), enabling site managers to assign custom permission levels across their teams and improving system security."
+      ]
+    },
+    {
+      "company": "Zarttech",
+      "title": "Senior Frontend Engineer (Contract Remote)",
+      "at": "@Zarttech",
+      "link": "https://zarttech.com",
+      "duration": "October 2022 - May 2023",
+      "roles": [
+        "Built a payment tracking dashboard for Zarttech admins, improving billing accuracy by 25% and providing real-time visibility into subscription data across 100+ client organizations.",
+        "Integrated SSO authentication and RBAC into the admin portal, reducing unauthorized access incidents by 70% and meeting enterprise security compliance requirements across all partner organizations.",
+        "Delivered a managed DNS configuration UI that empowered non-technical users to set up custom domains, reducing support requests and improving onboarding time.",
+        "Built an analytics dashboard to surface key usage and engagement metrics, enabling stakeholders to make data-driven decisions and track product performance."
+      ]
+    },
+    {
+      "company": "Shopnest Africa",
+      "title": "Senior Fullstack Engineer (Remote)",
+      "at": "@Zarttech",
+      "link": "https://shopnest.africa",
+      "duration": "June 2022 - March 2023",
+      "roles": [
+        "Blended Meta and TikTok APIs to allow vendors to schedule product promotions across Instagram, Facebook, and TikTok, reducing duplication and helping increase multichannel sales.",
+        "Meta Messaging integration to centralize vendor communication, enabling them to manage Facebook and Instagram business messages directly from the platform and improve response time.",
+        "Built a WebSocket-based chat microservice for real-time vendor-to-customer communication, improving engagement and increasing buyer trust.",
+        "Built a scalable notification microservice to handle email and SMS delivery, enhancing user communication across the platform.",
+        "Documented internal and external APIs using Swagger and Postman, improving onboarding for new developers and ensuring consistent API usage across teams."
+      ]
+    },
+    {
+      "company": "TheOaksoft",
+      "title": "Frontend Engineer (Remote)",
+      "at": "@TheOaksoft",
+      "link": "https://theoaksoft.com",
+      "duration": "January 2021 - June 2022",
+      "roles": [
+        "Built PLP, PDP, and CLP modules with SEO-focused enhancements to address low indexing, which boosted search engine visibility and increased organic traffic.",
+        "Integrated Google Places API into the delivery flow, reducing failed deliveries by 35% and improving address accuracy, resulting in increased customer satisfaction and delivery efficiency.",
+        "Built an order tracking interface in response to user demand for real-time updates, improving post-purchase experience and reducing support ticket volume.",
+        "Introduced micro-frontend architecture to address growing codebase complexity, allowing independent team deployments and reducing maintenance overhead across modules."
+      ]
+    },
+    {
+      "company": "Bonitas ICT",
+      "title": "Development Team Lead",
+      "at": "@Bonitas ICT",
+      "link": "https://bonitasict.com",
+      "duration": "Febuary 2018 - January 2021",
+      "roles": [
+        "Led the digital transformation of government MDAs, including Anambra State Housing Development Corporation (ASHDC), by modernizing their workflows through tailored web solutions, improving operational transparency and efficiency.",
+        "Designed and launched the company’s corporate website to address low brand visibility, resulting in a stronger online presence and refined client acquisition.",
+        "Directed the development of the company’s internal Health, Safety & Environment (HSE) compliance software, increasing staff adherence to HSE policies and improving internal audit readiness."
+      ]
+    },
+    {
+      "company": "Cousant Connect",
+      "title": "React Native Developer (Contract)",
+      "at": "@Cousant Connect",
+      "link": "https://cousant.com/",
+      "duration": "July 2017 - Dec 2017",
+      "roles": [
+        "Work based on assigned role per time as a mobile app developer for Clients of Cousant Connect under a strict non-disclosure policy.",
+        "Collaborate with the existing team as allowed by each Client in developing industry-leading mobile app solutions according to the Client’s specifics.",
+        "Completed two Client contracts so far with over 95% client satisfaction and recommendation."
+      ]
+    },
+    {
+      "company": "Innovate Space",
+      "title": "Software Engineer(Remote)",
+      "at": "@Innovate Space",
+      "link": "https://innovatespace.co",
+      "duration": "Jan 2017",
+      "roles": [
+        "Part time Code instructor and mentorship program at the software training academy",
+        "Succeessfully built the company website",
+        "Successfully built the Mayuk website for thr companies client"
+      ]
+    },
+    {
+      "company": "Hishighnex",
+      "title": "Fullstack Web & Mobile (Contract)",
+      "at": "@Hishighnex",
+      "link": "https://oilperfumes.com/",
+      "duration": "August 2017 - December 2018",
+      "roles": [
+        "Successfully built an E-commercee platform for the brand using Angular",
+        "Succeessfully built and deployed the company Native Android App using Kotlin",
+        "Successfully built the company's IOS App using React Native",
+        "Successfully built the compsniees internal inventory management solution"
+      ]
+    },
+    {
+      "company": "Devamplify Hub",
+      "title": "Junior Fullstack Web and Mobile developer",
+      "at": "@DevAmplify",
+      "link": "https://devamplify.com/",
+      "duration": "Jan 2017 - Dec 2017",
+      "roles": [
+        "Successfully built the companies startup Idea. The oneword App using Ionic",
+        "Successfully built and deployed a multilevel marketing platform for the comapny's client using Angular",
+        "Successfully trained students at the academy on both web and Mobile App development"
+      ]
+    }
+  ]
 }
